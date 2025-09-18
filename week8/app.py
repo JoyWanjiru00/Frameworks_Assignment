@@ -12,7 +12,7 @@ st.write("Interactive exploration of COVID-19 research papers")
 @st.cache_data
 def load_data():
     # Load local CSV (make sure it's in the repo)
-    df = pd.read_csv("metadata_sample.csv", low_memory=False)
+    df = pd.read_csv("week8/metadata_sample.csv", low_memory=False)
     df['publish_time'] = pd.to_datetime(df['publish_time'], errors='coerce')
     df['year'] = df['publish_time'].dt.year
     return df
