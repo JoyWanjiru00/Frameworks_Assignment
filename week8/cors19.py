@@ -18,7 +18,7 @@ sns.set(style="whitegrid")
 
 
 # ==== Part 1: Download and Load Data ====
-file_path = "/content/metadata_sample.csv"
+file_path = "week8/metadata_sample.csv"
 df = pd.read_csv(file_path, low_memory=False)
 print("✅ Data loaded successfully!")
 print(df.head())
