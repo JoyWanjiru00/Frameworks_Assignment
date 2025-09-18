@@ -1,6 +1,8 @@
 # CORD-19 Data Explorer  
 
-An interactive **Streamlit web app** for exploring COVID-19 research papers from the https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge  
+An interactive **Streamlit web app**
+link to app - https://frameworksassignment-p2jvcgezrudkvtqtmtg4ru.streamlit.app/
+For exploring COVID-19 research papers from the https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge  
 The app loads metadata, cleans it, and provides interactive visualizations of publication trends, top journals, frequent words, and more.  
 
 ---
